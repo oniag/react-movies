@@ -1,9 +1,12 @@
 import React from 'react'
+import { Menu, Nav }  from './styles'
 
 const Header = () => (
-  <header>
-    header
-  </header>
+  <Menu>
+    <Nav>
+      <p>React <span>Movies</span></p>
+    </Nav>
+  </Menu>
 )
 
 export default Header
