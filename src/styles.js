@@ -29,6 +29,12 @@ const GlobalStyle = createGlobalStyle`
     color: var(--clr-gray);
     font-weight: var(--fw-400);
   }
+
+  main {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+  }
 `
 
 export default GlobalStyle
