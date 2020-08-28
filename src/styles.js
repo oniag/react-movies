@@ -4,6 +4,7 @@ const GlobalStyle = createGlobalStyle`
   :root {
     --clr-black-rgba: rgba(0,0,0,.75);
     --clr-light-black: #151515;
+    --clr-medium-black: #111111;
     --clr-black: #000000;
     --clr-white: #ffffff;
     --clr-gray: #c1c1c1;
@@ -14,9 +15,20 @@ const GlobalStyle = createGlobalStyle`
     --fw-500: 500;
     --fw-700: 700;
   }
-
+    
   * {
     outline: none;
+  }
+
+  @keyframes run {
+    0%,
+    100% {
+      left: 0;
+    }
+  
+    50% {
+      left: -1.5rem;
+    }
   }
 
   body {
