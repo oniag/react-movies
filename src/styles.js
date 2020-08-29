@@ -47,6 +47,14 @@ const GlobalStyle = createGlobalStyle`
     max-width: 100%;
     margin: 0 auto;
   }
+
+  a {
+    text-decoration: none;
+  }
+
+  figure + figure {
+    margin-left: 10px;
+  }
 `
 
 export default GlobalStyle

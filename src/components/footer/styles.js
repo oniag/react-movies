@@ -4,6 +4,7 @@ export const FooterPage = styled.footer`
   display: flex;
   justify-content: center;
   padding: .5rem;
+  margin-top: 4rem;
   color: var(--clr-white);
   background-color: var(--clr-light-black);
   -webkit-box-shadow: 0 0 20px 0 var(--clr-black-rgba);

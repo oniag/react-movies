@@ -33,6 +33,7 @@ export const Filter = styled.div`
     min-height: 2.2rem;
     font-style: italic;
     border: .15rem solid var(--clr-yellow);
+    border-radius: .60rem;
     box-shadow: none;
     @media(max-width: 1024px) {
       width: 70%;
@@ -45,6 +46,10 @@ export const Filter = styled.div`
     background-color: var(--clr-yellow);
     color: var(--clr-white);
     cursor: pointer;
+    position: relative;
+    right: 2rem;
+    border-top-right-radius: .60rem;
+    border-bottom-right-radius: .60rem;
     @media(max-width: 1024px) {
       min-height: 2.62rem;
     }
