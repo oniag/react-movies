@@ -37,7 +37,7 @@ export const Filter = styled.div`
     border-radius: .60rem;
     box-shadow: none;
     @media(max-width: 1024px) {
-      width: 70%;
+      width: 100%;
     }
   }
   button {
@@ -53,6 +53,10 @@ export const Filter = styled.div`
     border-bottom-right-radius: .60rem;
     @media(max-width: 1024px) {
       min-height: 2.62rem;
+      right: 0;
+      border-radius: .60rem;
+      top: .50rem;
+      width: 25%;
     }
   }
 `
