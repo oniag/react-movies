@@ -1,18 +1,29 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { Row, Card, Img, Text, Small } from './styles'
+import { useMovie } from '../../../contexts/movie'
+
 
 const List = () => {
+  const { movies } = useMovie()
+
   return (
-    <Row>
-      <Card>
-        <Link to=''>
-          <Img src="https://image.tmdb.org/t/p/w220_and_h330_face/knfExByNW2jCwtmIuwYYxzPKpkm.jpg" />
-          <Text>Novo mundo</Text>
-          <Small>Lançado em 2020</Small>
-        </Link>
-      </Card>
-    </Row>
+    <>
+      {
+        movies.map((item) => (
+          <Row>
+            <Card>
+              <Link to=''>
+                <Img src={item.Poster} />
+                <Text>{item.Title}</Text>
+                <Small>{`Lançado em ${item.Year}`}</Small>
+              </Link>
+            </Card>
+          </Row>
+        )
+        )
+      }
+    </>
   )
 }
 

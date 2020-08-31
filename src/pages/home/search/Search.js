@@ -1,17 +1,11 @@
 import React, { useState } from 'react'
-import { API } from '../../../api/api'
 import { Filter } from './styles'
+import { useMovie } from '../../../contexts/movie'
+
 
 const Search = () => {
   const [nameMovie, setNameMovie] = useState([])
-  const [listMovies, setListMovies] = useState([])
-
-  const searchAPI = async () => {
-    const url = API(`${nameMovie}`)
-    const response = await fetch(url)
-    const data = await response.json()
-    setListMovies(data)
-  }
+  const { searchAPI } = useMovie()
 
   return (
     <Filter>
@@ -25,7 +19,7 @@ const Search = () => {
       </div>
       <div>
         <input type="text" placeholder="Digite aqui para pesquisar..." onChange={e => setNameMovie(e.target.value)} />
-        <button type="botton" onClick={searchAPI}>Pesquisar</button>
+        <button type="botton" onClick={() => searchAPI(nameMovie)}>Pesquisar</button>
       </div>
     </Filter>
   )
