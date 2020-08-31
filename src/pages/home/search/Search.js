@@ -17,7 +17,7 @@ const Search = () => {
         </h1>
       </div>
       <div>
-        <input type="text" placeholder="Digite aqui para pesquisar..." onChange={e => setNameMovie(e.target.value)} />
+        <input type="text" placeholder="Digite aqui para pesquisar..." onChange={e => setNameMovie(e.target.value.trim())} />
         <button type="botton" onClick={() => searchAPI(nameMovie)}>Pesquisar</button>
       </div>
     </Filter>
