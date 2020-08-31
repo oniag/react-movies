@@ -44,6 +44,7 @@ const GlobalStyle = createGlobalStyle`
 
   main {
     width: 1200px;
+    min-height: 100vh;
     max-width: 100%;
     margin: 0 auto;
   }

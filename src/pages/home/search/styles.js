@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import bgSearch from '../../../assets/img/bg-search.jpg'
 
 export const Filter = styled.div`
   display: flex;
@@ -10,7 +11,7 @@ export const Filter = styled.div`
   padding: 3rem;
   border-radius: .60rem;
   height: 250px;
-  background-image: url('https://image.tmdb.org/t/p/w1920_and_h600_multi_faces_filter(duotone,032541,01b4e4)/ghQrKrcEpAlkzBuNoOCSxHQXWqw.jpg');
+  background-image: url(${bgSearch});
   background-size: cover;
   background-position: center left;
   h1 {

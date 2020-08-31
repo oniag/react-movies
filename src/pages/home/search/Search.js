@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import { Filter } from './styles'
 import { useMovie } from '../../../contexts/movie'
 
-
 const Search = () => {
   const [nameMovie, setNameMovie] = useState([])
   const { searchAPI } = useMovie()

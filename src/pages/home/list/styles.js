@@ -19,7 +19,7 @@ export const Card = styled.figure`
 
 export const Img = styled.img`
   width: 12.5rem;
-  height: 100%;
+  height: 300px;
   border-radius: .60rem;
 `
 
