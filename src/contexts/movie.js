@@ -7,7 +7,6 @@ const MovieContext = createContext({ movies: [] })
 export const MovieProvider = ({ children }) => {
   const [movies, setMovies] = useState([])
   const [overlay, setOverlay] = useState(false)
-
   const searchAPI = async (nameMovie) => {
     if (nameMovie && nameMovie.length > 0) {
       setOverlay(true)

@@ -1,7 +1,7 @@
 const apiKey = 'a426542b'
 
 export const API = (params) => {
-  const url = `https://www.omdbapi.com/?apikey=${apiKey}&r=json&page=1&s=${params}`
+  const url = `https://www.omdbapi.com/?apikey=${apiKey}&r=json&s=${params}`
   
   return url;
 }
