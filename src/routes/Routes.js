@@ -2,7 +2,6 @@ import React from 'react'
 import { Switch, Route, HashRouter } from 'react-router-dom'
 
 import Header from '../components/header/Header'
-import Footer from '../components/footer/Footer'
 
 import Home from '../pages/home/Home'
 import Details from '../pages/details/Details'
@@ -18,7 +17,6 @@ const Routes = () => (
         </Switch>
       </HashRouter>
     </main>
-    <Footer />
   </>
 )
 

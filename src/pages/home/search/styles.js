@@ -51,12 +51,16 @@ export const Filter = styled.div`
     right: 2rem;
     border-top-right-radius: .60rem;
     border-bottom-right-radius: .60rem;
+    transition: .2s ease-in;
     @media(max-width: 1024px) {
       min-height: 2.62rem;
       right: 0;
       border-radius: .60rem;
       top: .50rem;
       width: 25%;
+    }
+    &:hover {
+      background-color: var(--clr-medium-yellow);
     }
   }
 `

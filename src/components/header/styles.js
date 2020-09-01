@@ -23,4 +23,7 @@ export const Nav = styled.nav`
       color: var( --clr-yellow);
     }
   }
+  a {
+    color: var(--clr-white);
+  }
 `

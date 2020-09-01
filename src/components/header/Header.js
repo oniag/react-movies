@@ -4,7 +4,11 @@ import { Menu, Nav }  from './styles'
 const Header = () => (
   <Menu>
     <Nav>
-      <p>React <span>Movies</span></p>
+      <p>
+        <a href="/" rel="noopener noreferrer">
+          React <span>Movies</span>
+        </a>
+      </p>
     </Nav>
   </Menu>
 )

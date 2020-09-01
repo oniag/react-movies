@@ -9,7 +9,8 @@ const GlobalStyle = createGlobalStyle`
     --clr-white: #ffffff;
     --clr-gray: #c1c1c1;
     --clr-yellow: #f5c632;
-
+    --clr-medium-yellow: #d2a826;
+    
     --fw-300: 300;
     --fw-400: 400;
     --fw-500: 500;
@@ -18,17 +19,6 @@ const GlobalStyle = createGlobalStyle`
     
   * {
     outline: none;
-  }
-
-  @keyframes run {
-    0%,
-    100% {
-      left: 0;
-    }
-  
-    50% {
-      left: -1.5rem;
-    }
   }
 
   html {
@@ -48,7 +38,6 @@ const GlobalStyle = createGlobalStyle`
 
   main {
     width: 1200px;
-    min-height: 100vh;
     max-width: 100%;
     margin: 0 auto;
   }
