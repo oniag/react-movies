@@ -5,6 +5,7 @@ import Header from '../components/header/Header'
 import Footer from '../components/footer/Footer'
 
 import Home from '../pages/home/Home'
+import Details from '../pages/details/Details'
 
 const Routes = () => (
   <>
@@ -13,6 +14,7 @@ const Routes = () => (
       <HashRouter>
         <Switch>
           <Route exact path='/' component={Home} />
+          <Route path="/details/:id" component={Details} />
         </Switch>
       </HashRouter>
     </main>

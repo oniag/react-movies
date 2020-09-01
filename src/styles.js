@@ -31,6 +31,10 @@ const GlobalStyle = createGlobalStyle`
     }
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
+  
   body {
     background-color: var(--clr-light-black);
     font-family: 'Roboto', sans-serif;

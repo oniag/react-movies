@@ -12,7 +12,7 @@ const List = () => {
         {
           movies.map((item) => (
             <Card key={item.imdbID}>
-              <Link to=''>
+              <Link to={`/details/${item.imdbID}`}>
                 <Img src={item.Poster} alt={item.Title} />
                 <Text>{item.Title}</Text>
                 <Small>{`Lançado em ${item.Year}`}</Small>

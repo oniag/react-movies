@@ -13,7 +13,6 @@ export const MovieProvider = ({ children }) => {
       const data = await response.json()
       if (data.Response === 'False') {
         alert('Informação não encontrada, tente novamente! 😊')
-        setMovies([])
       } else {
         setMovies(data.Search)
       }
