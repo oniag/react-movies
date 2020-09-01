@@ -12,7 +12,7 @@ const Search = () => {
         <h1>
           Bem-Vindo(a).
         <span>
-            Milhões de Filmes e Séries para descobrir. Explore já.
+          Milhões de Filmes e Séries para descobrir. Explore já.
         </span>
         </h1>
       </div>
