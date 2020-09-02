@@ -1,68 +1,35 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p style="font-size: 25px;" align="center"><b>React Movies</b></p>
+<p style="font-size: 15px;" align="center">Milhões de Filmes e Séries para descobrir. Explore já.</p>
 
-## Available Scripts
+<img src="https://github.com/oniag/react-movies/blob/master/github-img/bg-readme.png?raw=true" alt="img readme" />
 
-In the project directory, you can run:
+<p align="center" style="font-size: 13px;" >Este projeto foi realizado para estudos de React hooks, sem fins lucrativos.</p>
 
-### `npm start`
+## Tecnologias utilizadas
+- <em>ReactJS</em>
+- <em>Styled Components</em>
+- <em>NodeJS</em>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Recursos utilizados
+- <em>API do **[OMDb API](https://www.omdbapi.com/)**</em>
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Como executar
 
-### `npm test`
+Realize o clone do projeto utilizando o seguinte comando:
+```sh
+$ git clone https://github.com/oniag/react-movies.git
+```
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Feito isso, vá até a pasta react-movies e dentro dela utilize o comando:
+```sh
+$ npm i
+```
 
-### `npm run build`
+Após a instalação de todas as dependências execute:
+```sh
+$ npm start
+```
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### Observação
+Talvez você precise de uma **API KEY** nova, para isso basta acessar o site **[OMDb API](https://www.omdbapi.com/)**, gerar uma e alterar dentro do projeto no arquivo **api.js**
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
