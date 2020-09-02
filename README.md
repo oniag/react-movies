@@ -32,7 +32,7 @@ $ npm start
 
 Link do projeto online: **[React Movies](https://react-movies-omdb.netlify.app/#/)**
 
-#### Observações
+## Observações
 - <em>Talvez você precise de uma **API KEY** nova, para isso basta acessar o site **[OMDb API](https://www.omdbapi.com/)**, gerar uma e alterar dentro do projeto no arquivo **api.js**</em>
 
 - <em>Layout desenvolvido por **[Niag](https://github.com/oniag)**, utilizando apenas display flex e styled components.</em>
