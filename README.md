@@ -1,5 +1,5 @@
 <h1 style="font-size: 40px;" align="center"><b>React Movies</b></h1>
-<p style="font-size: 15px;" align="center">Milhões de Filmes e Séries para descobrir. Explore já.</p>
+<p style="font-size: 16px;" align="center">Milhões de Filmes e Séries para descobrir. Explore já.</p>
 
 <img src="https://github.com/oniag/react-movies/blob/master/github-img/bg-readme.png?raw=true" alt="img readme" />
 
