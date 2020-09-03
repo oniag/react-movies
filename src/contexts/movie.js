@@ -17,6 +17,7 @@ export const MovieProvider = ({ children }) => {
         alert('Informação não encontrada, tente novamente! 😊')
         setOverlay(false)
       } else {
+        window.scrollTo(0, 0)
         setMovies(data.Search)
         setOverlay(false)
       }
